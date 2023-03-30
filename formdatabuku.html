@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="buku.js"></script>
+    <title>Data Transaksi</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-12 col-sm-10">
+                <h2 class="text-center mt-3 mb-3 bg-dark text-light">Form Data Buku</h2>
+
+                <form method="post" name="frmbuku" onsubmit="return formbuku()">
+                    <div class="mb-3">
+                        <label for="idanggota" class="form-label">Id Anggota</label>
+                        <input type="number" class="form-control" id="idanggota" aria-describedby="inputIdAnggota">
+                    </div>  
+                    <div class="mb-3">
+                        <label for="namabuku" class="form-label">Nama Buku</label>
+                        <input type="text" class="form-control" id="namabuku" aria-describedby="inputnamabuku">
+                    </div>
+                    <div class="mb-3">
+                        <label for="namapengarang" class="form-label">Pengarang</label>
+                        <input type="text" class="form-control" id="namapengarang" aria-describedby="inputnamapengarang">
+                    </div>
+                    <div class="mb-3">
+                        <label for="namapenerbit" class="form-label">Penerbit</label>
+                        <input type="text" class="form-control" id="namapenerbit" aria-describedby="inputnamapenerbit">
+                    </div>
+                    <button type="submit" class="btn btn-dark">CARI</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

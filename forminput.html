@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="anggota1.js"></script>
+    <title>Anggota</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-12 col-sm-10">
+                <h2 class="text-center mt-3 mb-3">Form Data Anggota</h2>
+
+                <form method="post" name="frmanggota" onsubmit="return formanggota1()">
+                    <div class="mb-3">
+                        <label for="idanggota" class="form-label">Id Anggota</label>
+                        <input type="text" class="form-control" id="idanggota" aria-describedby="inputIdAnggota">
+                    </div>
+                    <div class="mb-3">
+                        <label for="namaanggota" class="form-label">Nama Anggota</label>
+                        <input type="text" class="form-control" id="namaanggota" aria-describedby="inputNamaAnggota">
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailanggota" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailanggota" aria-describedby="inputEmailAnggota">
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtalamat" class="form-label">Alamat</label>
+                        <textarea class="form-control" id="txtalamat" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailanggota" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailanggota" aria-describedby="inputEmailAnggota">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="jkel" class="form-label">Jenis Kelamin</label><br>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="jkel"> Laki-laki <br>
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="jkel"> Perempuan                 
+                      </div>
+
+
+
+                    <button type="submit" class="btn btn-dark">PINJAM</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
